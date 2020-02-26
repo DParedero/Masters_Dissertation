@@ -1,2 +1,2 @@
 # Masters_Dissertation
-[Trabajo Fin de Máster - Master's Dissertation] Modelos predictivos de valoración de activos inmobiliarios
+[Trabajo Fin de Máster - Master's Dissertation] Modelo predictivo para valoración de activos inmobiliarios
