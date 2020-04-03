@@ -1,4 +1,4 @@
-# Predicting model for real estate prices
+# Predicting Model for Real Estate Prices
 
 
 # Introduction
