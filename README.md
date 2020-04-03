@@ -1,7 +1,7 @@
 # Predicting Model for Real Estate Prices
 
 
-# Introduction
+## Introduction
 
 The objective of this work is to develop a model for predict prices of real estate assets focused on several cities in Argentina. This model will be focused on real estate transactions carried out in these cities and will take as variables for de model real estate assets features, such as rooms or surface. After obtaining the results, it can be seen that the predictions have acceptable error rates, which are considered to be improved through the inclusion of more variables in the model. Finally, the extension of the prediction to a data set that covers all the cities of the entire country and includes a greater number of variables is established as a line of work, with the aim of generalizing and improving the results obtained. 
 
