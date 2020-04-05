@@ -7,7 +7,7 @@ The objective of this work is to develop a model for predict prices of real esta
 
 This project uses the Scikit-learn Python library to determine the price prediction, given a data set of real estate assets. The approach to the problem is made through the use of Random Forest algorithm, training the model with a data subset and evaluating the performance with the remaining data set.
 
-The project is written using Python 3.8.0 and Scikit-learn 0.21.0 and licensed under Apache License 2.0. Full source code is [available on the following link](https://github.com/Dparedero/Masters_Dissertation).
+The project is written using Python 3.8.0 and Scikit-learn 0.21.0 and licensed under Apache License 2.0. Full source code is [available on the following link](https://github.com/Dparedero/Masters_Dissertation). In addition, the dissertation is exposed in detail (in Spanish) [on the following document](https://github.com/Dparedero/Masters_Dissertation/DissertationSpanish). 
 
 ### Use Cases
 The project looks to address the following two use cases:
@@ -15,3 +15,17 @@ The project looks to address the following two use cases:
 1. Price Prediction: Given a set of features of a real estate asset, being able to establish a reference price for this asset that matches the market. 
 
 2. Feature Engineering: Improve the accuracy of the model finding which data columns make the most useful features and studing wich is the relative importance of these features into the model.
+
+## Setting up the Data
+
+### Data source
+
+Properati SA is an Argentine real estate web portal, dedicated to the publication of assets for sale and rental transactions which operates in several Latin American countries, such as Argentina, Peru and Colombia. Since it opened in 2012, it has positioned itself as a leading portal in the Latin American sector and it is a reference thanks to the periodic publication that makes its own data for free use. This data sets are [available on the following link](https://github.com/Dparedero/Masters_Dissertation) and it can be dowloaded in CSV or using the Google BigQuery interface.
+
+## Predicting Model
+
+### Performance metrics
+
+### Random Forest algorithm
+
+## Feature engineering
