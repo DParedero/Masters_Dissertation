@@ -7,7 +7,7 @@ The objective of this work is to develop a model for predict prices of real esta
 
 This project uses the Scikit-learn Python library to determine the price prediction, given a data set of real estate assets. The approach to the problem is made through the use of Random Forest algorithm, training the model with a data subset and evaluating the performance with the remaining data set.
 
-The project is written using Python 3.8.0 and Scikit-learn 0.21.0 and licensed under Apache License 2.0. Full source code is [available on the following link](https://github.com/Dparedero/Masters_Dissertation). In addition, the dissertation is exposed in detail (in Spanish) [on the following document](https://github.com/Dparedero/Masters_Dissertation/DissertationSpanish.pdf). 
+The project is written using Python 3.8.0 and Scikit-learn 0.21.0 and licensed under Apache License 2.0. Full source code is [available on the following link](https://github.com/Dparedero/Masters_Dissertation). In addition, the dissertation is exposed in detail (in Spanish) [on the following document](https://github.com/DParedero/Masters_Dissertation/blob/master/DissertationSpanish.pdf). 
 
 ### Use Cases
 The project looks to address the following two use cases:
