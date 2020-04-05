@@ -26,26 +26,25 @@ Properati SA is an Argentine real estate web portal, dedicated to the publicatio
 
 Firstly, this are the filters that are applied to the BigQuery extraction:
 
-· type: Propiedad. (property)
+- type: Propiedad. (property)
 
-· country: Argentina. 
+- country: Argentina. 
 
-· created_on: greater than 01/06/2018 
+- created_on: greater than 01/06/2018 
 
-· operation: Venta. (sale)
+- operation: Venta. (sale)
 
-· currency: USD.
+- currency: USD.
 
 In addition, it is necessary to include the following filters to make sure that the dataset does not contain outliers:
 
-· cities: Vicente López and Palermo.
+- cities: Vicente López and Palermo.
 
-· surface: less than 1000 m2.
+- surface: less than 1000 m2.
 
-· rooms: less than 10 rooms.
+- rooms: less than 10 rooms.
 
-· bathrooms: less than 9 bathrooms.
-
+- bathrooms: less than 9 bathrooms.
 
 
 Finally, [this is the dataset obtained](https://github.com/DParedero/Masters_Dissertation/blob/master/data/Dataset.csv), in CSV format.
