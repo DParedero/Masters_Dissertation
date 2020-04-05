@@ -20,34 +20,48 @@ The project looks to address the following two use cases:
 
 ## Setting up the Data
 
-### Data source
+### Data Acquisition
 
 Properati SA is an Argentine real estate web portal, dedicated to the publication of assets for sale and rental transactions which operates in several Latin American countries, such as Argentina, Peru and Colombia. Since it opened in 2012, it has positioned itself as a leading portal in the Latin American sector and it is a reference thanks to the periodic publication that makes its own data for free use. This data sets are [available on the following link](https://www.properati.com.ar/data/) and it can be dowloaded in CSV or using the Google BigQuery interface.
 
-Firstly, this are the filters that are applied to the BigQuery extraction:
+First, this are the filters that are applied to the BigQuery extraction:
 
 - type: Propiedad. (property)
-
 - country: Argentina. 
-
 - created_on: greater than 01/06/2018 
-
 - operation: Venta. (sale)
-
 - currency: USD.
 
 In addition, it is necessary to include the following filters to make sure that the dataset does not contain outliers:
 
 - cities: Vicente López and Palermo.
-
 - surface: less than 1000 m2.
-
 - rooms: less than 10 rooms.
-
 - bathrooms: less than 9 bathrooms.
 
 
 Finally, [this is the dataset obtained](https://github.com/DParedero/Masters_Dissertation/blob/master/data/Dataset.csv), in CSV format.
+
+### Data Analysis
+
+First, it is necessary to study the dataset to identify anomalies and know the structure to apply the algorithm. This are the features that are contained in the dataset:
+
+- Rooms: numeric feature. Number of rooms in the asset.
+- Bathrooms: numeric feature. Number of bathrooms in the asset.
+- Surface: numeric feature. Asset size measured in square meters.
+- City: categorical feature. The name of the city where the asset is located.
+- District: categorical feature. The name of the district where the asset is located.
+- Asset_Type: categorical feature. Each one of the types which the asset can be, such as department or office.
+- Price: numeric feature. Asset price measured in USD. This feature is the response variable.
+
+As it can be seen, there are 4 numeric variables and 3 categorical variables, that will be analyzed independently.
+
+The following Python code loads in the csv data and displays the statistical features of the numeric variables:
+
+```python
+df = pd.read_csv('./Data/Dataset.csv')
+df.describe()
+```
 
 
 ## Predicting Model
