@@ -63,6 +63,8 @@ df = pd.read_csv('./Data/Dataset.csv')
 df.describe()
 ```
 
+![alt text](https://github.com/DParedero/Masters_Dissertation/blob/master/images/data_describe.PNG?raw=true "Data describe")
+
 
 ## Predicting Model
 
