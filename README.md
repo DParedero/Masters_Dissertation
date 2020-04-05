@@ -65,6 +65,20 @@ df.describe()
 
 ![alt text](https://github.com/DParedero/Masters_Dissertation/blob/master/images/data_describe.PNG?raw=true "Data describe")
 
+There are not any data points that immediately appear as anomalous and no zeros in any of the measurement columns. This is thanks to the filters applied in the Google BigQuery extraction.
+
+Another method to verify the quality of the data is make basic plots. This is also useful to analyze the correlation between the features in order to determine if the algorithm will be able to predict the prices using the other features. 
+
+![alt text](https://github.com/DParedero/Masters_Dissertation/blob/master/images/data_distribution.PNG?raw=true "Data distribution")
+
+In this plot is shown the relation between the number of rooms, and the average of bathrooms and surface by rooms. 
+
+![alt text](https://github.com/DParedero/Masters_Dissertation/blob/master/images/price_per_rooms.PNG?raw=true "Data distribution")
+![alt text](https://github.com/DParedero/Masters_Dissertation/blob/master/images/price_per_bathrooms.PNG?raw=true "Data distribution")
+
+In this other plots it is shown the average pricer per number of rooms and per number of bathrooms. 
+
+It can be seen that there is a hight correlation between the features, so we can expect that the algorithm obtains a good performance results.
 
 ## Predicting Model
 
