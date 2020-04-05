@@ -74,7 +74,7 @@ Another method to verify the quality of the data is make basic plots. This is al
 In this plot is shown the relation between the number of rooms, and the average of bathrooms and surface by rooms. 
 
 ![alt text](https://github.com/DParedero/Masters_Dissertation/blob/master/images/price_per_rooms.PNG?raw=true "Data distribution")
-![alt text](https://github.com/DParedero/Masters_Dissertation/blob/master/images/price_per_bathrooms.PNG?raw=true "Data distribution")
+[alt text](https://github.com/DParedero/Masters_Dissertation/blob/master/images/price_per_bathrooms.PNG?raw=true "Data distribution")
 
 In this other plots it is shown the average pricer per number of rooms and per number of bathrooms. 
 
