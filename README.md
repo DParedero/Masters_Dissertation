@@ -78,7 +78,7 @@ In this plot is shown the relation between the number of rooms, and the average 
 
 In this other plots it is shown the average pricer per number of rooms and per number of bathrooms. 
 
-It can be seen that there is a hight correlation between the features, so we can expect that the algorithm obtains a good performance results.
+It can be seen that there is a high correlation between the features, so we can expect that the algorithm obtains a good performance results.
 
 ## Predicting Model
 
